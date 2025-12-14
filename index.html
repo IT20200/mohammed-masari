@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Career Assistant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: 'var(--color-primary)',
+              'primary-light': 'var(--color-primary-light)',
+              accent: 'var(--color-accent)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      :root {
+        /* New Professional Indigo Palette */
+        --color-primary: #4F46E5; /* Indigo 600 - Calm, Technical Primary */
+        --color-primary-light: #EEF2FF; /* Indigo 50 - Very Light Backgrounds */
+        --color-accent: #6366F1; /* Indigo 500 - Secondary Highlights */
+        
+        /* Slate Scale for Text & Backgrounds */
+        --color-secondary: #64748B; /* Slate 500 */
+        --color-bg: #F8FAFC; /* Slate 50 - Page Background */
+        --color-card: #FFFFFF; /* White Cards */
+        
+        /* Typography */
+        --color-text-main: #1E293B; /* Slate 800 - Dark, Comfortable, Not Sharp Black */
+        --color-text-secondary: #475569; /* Slate 600 - Readable Secondary Text */
+        --color-text-muted: #94A3B8; /* Slate 400 - Muted Text */
+      }
+      body {
+        font-family: 'Cairo', sans-serif;
+        background-color: var(--color-bg);
+        color: var(--color-text-main);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.33.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "react-markdown": "https://esm.sh/react-markdown@^10.1.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-[var(--color-bg)] text-[#1E293B]">
+    <div id="root"></div>
+  </body>
+</html>

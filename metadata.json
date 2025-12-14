@@ -1,0 +1,5 @@
+{
+  "name": "AI Career Assistant (Arabic)",
+  "description": "An Arabic-interface career assistant powered by Gemini to help with Resumes, Interviews, and Career Paths.",
+  "requestFramePermissions": []
+}
